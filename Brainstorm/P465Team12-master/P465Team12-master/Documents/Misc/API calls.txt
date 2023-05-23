@@ -1,0 +1,36 @@
+Format
+/[something] -> all the following paths start with this
+-> [GET] /[something]/{variable} -> the {} is a variable to be used with the API call
+	-> what kind of API call it is
+-> [GET] / -> just having the request at this start of the path is enough
+
+
+
+/user
+-> [GET] /login/{username}/{password} //login with duo. so far, this does return a user. however, i do not know if its a correct implementation
+-> [GET] /logintest/{username}/{password} //if above does not work, this is login without duo
+-> [POST] /register // registers a user, returns them
+	-> requires a RequestBody: User. I believe Armand made an implementation of this for adding anmts?
+-> /duo-callback/duo_code={}?state={} //duo callback function, returns a user. idk if this works properly with a frontend
+-> [GET] /calendar/{user_id} // gets all Events associtated with a User
+-> [GET] /anmt/{user_id} // gets all Annoucmenets w/ a user
+-> [GET] course/{user_id} // ^ but with Courses
+-> [GET] /search/{user_id}/{searchedString} //gets all Searchable objects (Events, anmts) if they include the string
+-> [GET] /search/{user_id}/events/{searchedString} //^ but only for events/
+-> [GET] /search/{user_id}/anmts/{searchedString} //^ but only for Annoucmenets
+
+
+/course
+-> [GET] /{course_id} //gets a course
+-> [GET] amnt/{course_id} //gets all course announcements
+-> [GET] calendar/{course_id} // ^ but with events
+-> [POST] /{course_id} //updates a couse
+	-> requires a RequestBody: Course
+	
+/anmts
+-> [GET] / -> gets all anmts in the system
+-> [POST] / -> adds an anmts
+	-> requires a RequestBody: Annoucement
+	
+/calendar
+-> [GET] / -> get all events in the system

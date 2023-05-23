@@ -1,0 +1,52 @@
+-- Select * from users;
+-- ALTER TABLE users add 
+-- from users (userid varchar(400) default 'UserID not available' not null);
+
+-- ALTER TABLE users
+-- ALTER COLUMN userid MODIFIED_BY VARCHAR(400) NOT NULL;
+
+-- SELECT userid
+-- FROM users
+-- WHERE userid IS NULL;
+-- DROP TABLE users;
+-- CREATE TABLE users(
+-- userid VARCHAR(400) NOT NULL PRIMARY KEY,
+-- username VARCHAR(400) NOT NULL,
+-- password VARCHAR(400) NOT NULL,
+-- firstName VARCHAR(400) NOT NULL,
+-- lastName VARCHAR(400) NOT NULL,   
+-- email VARCHAR(400) NOT NULL,
+-- answer1 VARCHAR(400) NOT NULL,
+-- answer2 VARCHAR(400) NOT NULL,
+-- role VARCHAR(400) NOT NULL
+-- );
+-- INSERT INTO users
+-- (userid, username, password, firstname, lastname, email, answer1, answer2, role)
+-- VALUES
+-- ('2000921700','Soumyajit345','Sam123#', 'Soumyajit', 'Chakraborty', 'souchak@iu.edu', 'Im a student', 'Computer Science', 'Student')
+-- ;
+
+-- INSERT INTO users VALUES
+-- ('2000921869','XYZ', 'XIK123#', 'Sam', 'C', 'soumyajitchakraborty23@gmail.com', 'student', 'CS', 'Student')
+-- ;
+-- SELECT * FROM users;
+-- CREATE TABLE Course(
+-- course_id int NOT NULL PRIMARY KEY,
+-- customer_name VARCHAR(100) NOT NULL
+-- );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

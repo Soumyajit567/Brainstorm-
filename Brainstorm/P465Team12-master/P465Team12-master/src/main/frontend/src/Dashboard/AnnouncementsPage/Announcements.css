@@ -1,0 +1,82 @@
+.mainContent{
+    background-color: lightgray;
+    border: 2px black solid;
+    margin-left: 20px;
+    margin-right: 150px;
+    margin-top: 20px;
+    padding-bottom: 40%;
+    text-align: center;
+}
+
+.anmt-preview {
+    background-color: lightblue;
+    margin: 20px 0;
+    border: 1px solid white;
+}
+
+.anmt-preview:hover {
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.1);
+ }
+
+.anmt-preview h2 {
+    font-size: 20px;
+    color: blue;
+    margin-bottom: 8px;
+}
+
+.newAnnouncement {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.anmtHeader {
+    margin-bottom: 30px;
+}
+
+.anmtInputs {
+    margin-top: 10px;
+}
+
+.anmtTitle{
+    margin-top: 30px;
+}
+
+.amntNumber {
+    font-style: normal;
+    color: blue;
+}
+
+.amntContent {
+    text-align: left;
+    font-size: 150%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.createAnmt {
+    margin-top: 10px;
+}
+
+.deleteAnmt {
+    margin-bottom: 10px;
+}
+
+
+label {
+    display: block;
+}
+
+h1 {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: block;
+}
+

@@ -1,0 +1,16 @@
+.Home {
+    text-align: center;
+}
+
+.title {
+    margin-top: 10px;
+    color: white;
+    font-size: 50px;
+    text-shadow: 1px 1px black;
+    text-align: center;
+}
+
+.homeLogo {
+    display:block;
+    margin: auto;
+}

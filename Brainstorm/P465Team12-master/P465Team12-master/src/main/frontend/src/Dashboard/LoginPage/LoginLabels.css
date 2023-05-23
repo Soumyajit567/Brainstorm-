@@ -1,0 +1,119 @@
+
+
+.logo {
+    margin-left: 0px;
+}
+
+p {
+    font-size: 20px;
+    text-shadow: 1px 1px black;
+    text-align: center
+}
+
+
+.header {
+    color: white;
+    font-size: 50px;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    margin: auto;
+    max-width: 75%;
+}
+
+.loginForm {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+label {
+    margin: 5px;
+}
+
+inputs {
+    max-width: 50%;
+}
+
+.usernameLabel, .usernameText {
+    display: block;
+    color: white;
+    font-size: larger;
+    text-shadow: 1px 1px black;
+    margin-top: 40px;
+}
+
+.passwordLabel, .passwordText {
+    display: block;
+    color: white;
+    font-size: larger;
+    text-shadow: 1px 1px black;
+}
+
+.firstNameLabel, .firstNameText {
+    display: block;
+    color: white;
+    font-size: larger;
+    text-shadow: 1px 1px black;
+}
+
+.lastNameLabel, .lastNameText {
+    display: block;
+    color: white;
+    font-size: larger;
+    text-shadow: 1px 1px black;
+}
+
+.emailLabel, .emailText {
+    display: block;
+    color: white;
+    font-size: larger;
+    text-shadow: 1px 1px black;
+}
+
+.firstQuestionLabel, .firstQuestionText {
+    display: block;
+    color: white;
+    font-size: larger;
+    text-shadow: 1px 1px black;
+}
+
+.secondQuestionLabel, .secondQuestionText {
+    display: block;
+    color: white;
+    font-size: larger;
+    text-shadow: 1px 1px black;
+}
+
+.submitButton {
+    display: block;
+    width: auto;
+    border: 1px solid grey;
+    background-color: cornflowerblue;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 150%;
+}
+
+.submitButton:hover {
+    background-color: lightgray;
+}
+
+.forgot{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.fbPic {
+    display: inline;
+}
+
+.fbPic:hover, .ggPic:hover {
+    filter: grayscale(1);
+}
+
+.ggPic {
+    display: inline;
+}

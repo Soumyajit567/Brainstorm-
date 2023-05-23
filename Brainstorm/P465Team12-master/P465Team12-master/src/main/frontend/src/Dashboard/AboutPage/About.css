@@ -1,0 +1,10 @@
+.container {
+    color: white;
+    font-size: 50px;
+    text-shadow: 1px 1px black;
+}
+
+.statement {
+    text-align: center;
+    font-size: 90%;
+}

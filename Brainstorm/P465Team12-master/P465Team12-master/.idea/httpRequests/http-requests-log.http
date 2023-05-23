@@ -1,0 +1,10 @@
+GET http://localhost:8080/course/calendar/{{course_id}}
+
+###
+
+GET http://localhost:8080/calendar
+
+<> 2021-10-13T231224.404.json
+
+###
+

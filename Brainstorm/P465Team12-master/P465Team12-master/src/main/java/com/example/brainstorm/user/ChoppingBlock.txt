@@ -1,0 +1,107 @@
+THE BELOW CODE IS WHAT HAS BEEN CUT FROM OUR FINAL PRODUCT.
+(Keeping it just in case we have time to work with it later -> this is from the 'user' folder.)
+
+
+>>> USERS
+
+    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JoinColumn(name = "reset_token", referencedColumnName = "token")
+    private ResetToken resetToken;
+
+    @Column(nullable = false, length = 64)
+    private String answer1;
+    @Column(nullable = false, length = 64)
+    private String answer2;
+
+    public Users(String username,
+                 String password,
+                 String first_name,
+                 String last_name,
+                 String email,
+                 String answer1,
+                 String answer2, Roles role,
+                 List<Enrollment> enrollment) {
+        this.username = username;
+        this.password = password;
+        this.first_name = first_name;
+        this.last_name = last_name;
+        this.email = email;
+        this.answer1 = answer1;
+        this.answer2 = answer2;
+        this.role = role;
+        this.enrollment = enrollment;
+    }
+
+    public ResetToken getResetToken() {
+        return resetToken;
+    }
+
+    public void setReset_token(ResetToken resetToken) {
+        this.resetToken = resetToken;
+    }
+
+    public String getAnswer1() {
+        return answer1;
+    }
+
+    public void setAnswer1(String answer1) {
+        this.answer1 = answer1;
+    }
+
+    public String getAnswer2() {
+        return answer2;
+    }
+
+    public void setAnswer2(String answer2) {
+        this.answer2 = answer2;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", firstName='" + first_name + '\'' +
+                ", lastName='" + last_name + '\'' +
+                ", email='" + email + '\'' +
+                ", answer1='" + answer1 + '\'' +
+                ", answer2='" + answer2 + '\'' +
+                ", role='" + role + '\'' +
+                ", enrollment" + enrollment.toString() +
+                '}';
+    }
+
+
+>>> USERSERVICE
+
+     /**
+     * <p>
+     *  Updates password and resets a user's reset token.
+     * </p>
+     * @param user the user whose password will be updated
+     * @param newPass the user's new password
+     *
+    public void updatePassword(Users user, String newPass){
+        String encryptedPass = passwordEncoder.encode(newPass);
+        user.setPassword(encryptedPass);
+        user.setReset_token(null);
+        userRepository.save(user);
+    }
+
+    /**
+     * Updates reset token for a user within database.
+     *
+     * @throws Exception
+     *
+    public void updateResetToken(String token, String email) throws Exception{
+        Users user = userRepository.findByEmail(email);
+        ResetToken newToken = new ResetToken(token, user);
+        if (user != null) {
+            user.setReset_token(newToken);
+            userRepository.save(user);
+        } else {
+            throw new Exception("There is no user with an email of " + email);
+        }
+    }
+
+     */

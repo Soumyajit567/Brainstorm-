@@ -1,0 +1,80 @@
+.mainContent{
+    border: 2px black solid;
+    margin-left: 20px;
+    margin-right: 150px;
+    margin-top: 20px;
+    padding-bottom: 40%;
+    text-align: center;
+}
+
+.course-preview {
+    margin: 20px 0;
+    border: 1px solid white;
+}
+
+.course-preview:hover {
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.course-preview h2 {
+    font-size: 20px;
+    color: blue;
+    margin-bottom: 8px;
+}
+
+.newcourse {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.courseHeader {
+    margin-bottom: 30px;
+}
+
+.courseInputs {
+    margin-top: 10px;
+}
+
+.courseTitle{
+    margin-top: 30px;
+}
+
+.courseNumber {
+    font-style: normal;
+    color: blue;
+}
+
+.courseContent {
+    text-align: left;
+    font-size: 150%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.createcourse {
+    margin-top: 10px;
+}
+
+.deletecourse {
+    margin-bottom: 10px;
+}
+
+
+label {
+    display: block;
+}
+
+h1 {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: block;
+}
+

@@ -1,0 +1,54 @@
+10/20
+Done: meeting with professor and communication regarding the team
+In-progress: JIRA tickets need to be done tonight so I'm going to look at what the others have already done and try to fill in my part, specifically database tickets. Also might rework some things in the database such as reset tokens.
+Blockers: Other classes, personal things, etc. Not much that can be helped.
+
+10/21
+Done: Nothing yesterday. Other work kept me booked... as always, it feels.
+In-progress: everything from yesterday. No large deadlines tonight so hoping I can now play catch up with this class.
+Blockers: The usual at this point. Nothing that can be helped.
+
+10/22
+Done: Worked on JIRA tickets and attempted to work on Users but then I realized I should have the updated version before I try anything huge.
+In Progress: JIRA, assigning tickets to Soumyajit.
+Blockers: None for Friday.
+
+10/23
+Done: More refactoring, created reset token table, working on reset token class
+In Progress: refactoring rest of existing code so the new class doesn't break everything
+Blockers: None
+
+10/24
+Done: research into sql and resetting password. will update the others on it later but I think I figured out searching
+In progress: refactoring and figure out what all is needed from frontend for resetting password
+Blockers: none
+
+10/25
+Done: Nothing completed, discussed searching with Vince & gained better understanding of his search prototype. Been studying for other commitments.
+In-progress: Trying not to work too hard today and tomorrow for those commitments. Going to hopefully get a list of things needed from front-end for resetting password, need to go through that workflow and finish refactoring as well.
+Blockers: I need to travel back home today for very important medicine. That, and I've got interviews coming up.
+
+10/26
+Done: Not much, the medicine thing took more hours than I hoped due to other family things.
+In-progress: "Trying not to work too hard today and tomorrow for those commitments. Going to hopefully get a list of things needed front front-end for resetting password, need to go through that workflow and finish refactoring as well." (The big interview is in like 3 hours so after that, hopefully I can work some.)
+Blockers: The interviews...
+
+10/27
+Done: Again, not much.
+In-progress: Since the big thing is over, I can work on the project today. All previous things in my "in-progress" are fair game, and I guess I'll reach out to V about the casting error?
+Blockers: None... nothing is Due this weekend aside from project stuff, so I can devote half my time to that, half to studying for interviews on Friday.
+
+10/28
+Done: Got more work done on refactoring the reset token. Should be done or almost done.
+In progress: Testing the reset password functionality, making a new column in the users table, and whatever else is on my to-do in JIRA.
+Blockers: Just the usual
+
+10/29
+Done: Refactoring reset token. Need to test it today, I just need to figure out how to actually do it...the oauth thing is still confusing me. Also added two new Users attributes for their theme preference (light by default) and their provider (for oauth purposes).
+In-progress: Testing the refactoring, setting up the expiration of the token.
+Blockers: 3 hours of interviews today 1-4
+
+10/30
+Done: First round of refactoring and password token expiration.
+In progress: Testing that the above works
+Blockers: Might need a run down on how the site is supposed to work anymore so I can work with the reset password stuff

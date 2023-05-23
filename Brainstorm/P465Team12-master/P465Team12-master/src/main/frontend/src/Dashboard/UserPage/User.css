@@ -1,0 +1,80 @@
+.mainContent{
+    background-color: lightsteelblue;
+    border: 2px black solid;
+    margin-left: 20px;
+    margin-right: 150px;
+    margin-top: 20px;
+    padding-bottom: 40%;
+    text-align: center;
+}
+
+.newUser {
+    max-width: 1500px;
+    margin: auto;
+}
+
+.userHeader {
+    margin-bottom: 30px;
+}
+
+.userInputs {
+    margin-top: 10px;
+}
+
+.user-preview {
+    background-color: lightblue;
+    margin: 20px 0;
+    border: 1px solid white;
+}
+
+.user-preview:hover {
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-preview h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.userTitle {
+    margin-top: 30px;
+    color: blue;
+}
+
+.userNumber {
+    font-style: normal;
+    color: blue;
+}
+
+.userContent {
+    text-align: left;
+    font-size: 150%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.deleteUser {
+    margin-bottom: 10px;
+}
+
+.createUser {
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+}
+
+h1 {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: block;
+}

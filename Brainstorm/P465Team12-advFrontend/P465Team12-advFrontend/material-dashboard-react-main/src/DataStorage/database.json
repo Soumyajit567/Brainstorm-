@@ -1,0 +1,37 @@
+{
+  "anmts": [
+    {
+      "title": "Kurt Seiffert Team Rosters are posted in the Project Page",
+      "content": "I am a day later than I intended, but I have the team rosters  Download team rostersposted in the project page. Please check it out as soon as possible. Please let me know immediately if you see any problems with your team assignment. I do not think I missed anyone, but it would not be my first mistake or my last. \n\nYour client will be one of the AI's. That information is included in the roster. \n\nYour next step is to get together with your team. You should be:\n\nExchanging contact information\nDeciding what are the top three themes your team would like to work on\nStart talking about technology stacks you will use\nIdentify resources and training material for any technology your team has chosen\nDiscuss some actual projects you would like to do in each of your favorite themes. \nRecord the minutes from your meetings. They will need to be submitted by Sunday midnight along with your rank ordered request of themes. \nYou should also be talking with your client and arranging meeting times with them. \nYou can contact either your client or myself with any questions. Any problems with team assignments should come to me, but feel free to CC your client if you like. ",
+      "author": "Kurt Seiffert",
+      "id": 1
+    }
+  ],
+  "courses": [
+    {
+      "title": "Software Engineering for Information Systems I & Software Engineering I",
+      "courseNum": "CSCI-P 565/465",
+      "content": "3 Credit  Hours: Analysis,  design  and  implementation  of  softwareand  informationsystems. Requirements  specification:  data  and  process  modeling.  Software  design  methodologies. Software  quality  assurance:  testing  and  verification.  Software  development  processes. Supervised team development of a real system for a client. Credit not given for both CSCI-P 565 and CSCI-P 465. ",
+      "prof": "Kurt Seiffert,",
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "username": "ashopf",
+      "email": "ashopf@iu.edu",
+      "content": "This user is Armand Hopf",
+      "id": 1
+    }
+  ],
+  "instrs": [
+    {
+      "instrName": "Kurt Seiffert",
+      "instrNum": "123",
+      "content": "This instructor teaches P465",
+      "prof": "Armand",
+      "id": 1
+    }
+  ],
+  "grades": []
+}

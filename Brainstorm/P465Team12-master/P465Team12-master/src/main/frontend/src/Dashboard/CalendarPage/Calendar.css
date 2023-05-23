@@ -1,0 +1,31 @@
+
+.react-calendar__month-view__weekdays {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.react-calendar__navigation button {
+    min-width: 44px;
+    background: cornflowerblue;
+    margin: 20px;
+    padding: 20px;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.react-calendar__month-view {
+    display: block;
+    margin: 20px;
+}
+
+
+.react-calendar__tile {
+    background-color: lightsteelblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+    text-shadow: 1px 1px grey;
+    font-size: 30px;
+}
